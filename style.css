@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+nav.container {
+    position: sticky;
+    top: 0;
+
+    height: 60px;
+    background-color: #fbfbfb;
+    box-shadow: 0px 5px 15px rgba(189,189,189,1);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.navbar-brand {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: bold;
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 15px;
+    transition: 300ms;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+ul li {
+    display: inline-block;
+    margin: 3px;
+}
+
+li a {
+    color: #014188;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+li:hover a{
+    display: inline-block;
+    transform: scale(1.1);
+}
+
+#searchbar {
+    margin-left: auto;
+    padding: 10px;
+}
+
+#searchbar * {
+    padding: 4px;
+}
+
+#searchbar input {
+    border-radius: 3px;
+    border: 1px solid #014188;
+}
+
+#searchbar button {
+    margin-right: 3px
+}
+
+#top {
+    overflow: auto;
+    height: 100%;
+    background: url(lightbulbs.jpg) no-repeat 80% center;
+    background-size: cover;
+}
+
+header.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 23px rgba(189,189,189,1);
+}
+
+header h1 {
+    margin-top: 550px;
+}
+
+button.find-out-more {
+    margin-top: 60px;
+    font-size: 25px;
+    padding: 8px
+}
+
+.btn-yellow {
+    border: 2px solid #ffc107;
+    color: white;
+    background-color: #ffc107;
+    transition: 300ms;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.btn-yellow:hover {
+    transform: scale(1.1);
+}
+
+section.container {
+    background-color: #fbfbfb;
+    color: #014188;
+    height: 500px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 23px rgba(189,189,189,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
